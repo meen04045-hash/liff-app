@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>แบบประเมิน</title>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+</head>
+<body>
+
+<h2>แบบประเมิน 2Q</h2>
+
+<p>ข้อ 1: รู้สึกเศร้าหรือสิ้นหวัง?</p>
+<button onclick="answer(0)">ไม่มีเลย</button>
+<button onclick="answer(1)">บางวัน</button>
+<button onclick="answer(2)">บ่อย</button>
+<button onclick="answer(3)">ทุกวัน</button>
+
+<script>
+async function main() {
+  await liff.init({ liffId: "YOUR_LIFF_ID" });
+}
+main();
+
+function answer(score) {
+  liff.sendMessages([
+    { type: "text", text: score.toString() }
+  ]).then(() => {
+    liff.closeWindow();
+  });
+}
+</script>
+
+</body>
+</html>
