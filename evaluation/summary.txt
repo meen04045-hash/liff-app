@@ -7,8 +7,8 @@ Accuracy : 62.3%
 Cross Validation : 68.3%
 ----------------------------------------
 Emotion
-Accuracy : 71.2%
-Cross Validation : 69.4%
+Accuracy : 62.1%
+Cross Validation : 68.8%
 ----------------------------------------
 Problem
 Accuracy : 72.4%
@@ -23,6 +23,6 @@ Accuracy : 76.3%
 Cross Validation : 73.4%
 ----------------------------------------
 Conversation Style
-Accuracy : 55.9%
-Cross Validation : 70.0%
+Accuracy : 70.6%
+Cross Validation : 71.3%
 ----------------------------------------
