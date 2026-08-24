@@ -29,6 +29,7 @@ text,label
 อยากระบายเรื่องเรียน,venting
 อยากระบายเรื่องงาน,venting
 ขอระบายเรื่องครอบครัวหน่อย,venting
+
 ขอคำแนะนำหน่อย,ask_advice
 ช่วยแนะนำหน่อย,ask_advice
 ควรทำยังไงดี,ask_advice
@@ -59,6 +60,7 @@ text,label
 มีเทคนิคหยุดคิดมากไหม,ask_advice
 จะรับมือกับความกดดันยังไงดี,ask_advice
 ช่วยแนะนำวิธีใช้ชีวิตหน่อย,ask_advice
+
 ทำแบบประเมินได้ไหม,assessment
 ขอทำแบบประเมินหน่อย,assessment
 อยากประเมินตัวเอง,assessment
@@ -83,6 +85,7 @@ text,label
 มีคำถามประเมินไหม,assessment
 ช่วยประเมินความเสี่ยงหน่อย,assessment
 อยากลองเช็กอารมณ์ตัวเอง,assessment
+
 ขอคุยเล่นหน่อย,smalltalk
 สวัสดี,smalltalk
 หวัดดี,smalltalk
@@ -107,6 +110,7 @@ text,label
 ช่วยคุยเป็นเพื่อนหน่อย,smalltalk
 วันนี้ว่างไหม,smalltalk
 มานั่งคุยกันเฉยๆ,smalltalk
+
 ช่วยปลอบหน่อย,emotional_support
 ขอกำลังใจหน่อย,emotional_support
 อยากได้คำปลอบใจ,emotional_support
@@ -127,6 +131,32 @@ text,label
 ช่วยฮีลใจหน่อย,emotional_support
 ขอคนอยู่ด้วยตอนนี้,emotional_support
 เรารู้สึกแย่มากจริงๆ,emotional_support
+วันนี้เหนื่อยมากอยากมีคนบอกว่าเราทำดีแล้ว,emotional_support
+อยากได้ใครสักคนมาบอกว่าไม่เป็นไรนะ,emotional_support
+รู้สึกท้อนิดหน่อยอยากได้คำปลอบใจ,emotional_support
+แค่อยากมีคนรับฟังเฉยๆไม่ต้องแนะนำอะไร,emotional_support
+วันนี้ผิดหวังนิดหน่อยอยากมีคนเข้าใจ,emotional_support
+อยากได้คนบอกว่าเราไม่ได้แย่ขนาดนั้น,emotional_support
+รู้สึกเหนื่อยกับงานอยากมีคนให้กำลังใจ,emotional_support
+แค่อยากมีคนกอดให้กำลังใจตอนนี้,emotional_support
+อยากได้ยินคำดีๆบ้างวันนี้,emotional_support
+รู้สึกเศร้านิดหน่อยแต่ยังไหวอยู่ แค่อยากมีคนคุยด้วย,emotional_support
+
+ตอนนี้เราไม่ปลอดภัยจริงๆช่วยด่วน,crisis_help
+กำลังจะทำร้ายตัวเองตอนนี้ช่วยที,crisis_help
+ช่วยโทรหาใครมาช่วยเราตอนนี้ที,crisis_help
+เราต้องการความช่วยเหลือฉุกเฉินตอนนี้เลย,crisis_help
+ตอนนี้เราควบคุมตัวเองไม่ได้แล้วช่วยด่วน,crisis_help
+อยู่คนเดียวและกำลังจะทำอะไรบางอย่างตอนนี้,crisis_help
+ช่วยส่งคนมาหาเราตอนนี้ได้ไหม,crisis_help
+เราอยู่ในอันตรายตอนนี้จริงๆ,crisis_help
+ต้องการสายด่วนช่วยเหลือเดี๋ยวนี้,crisis_help
+ช่วยหยุดเราไว้ตอนนี้ก่อนจะสายเกินไป,crisis_help
+เรากำลังจะทำร้ายตัวเองภายในไม่กี่นาทีนี้,crisis_help
+ไม่มีใครอยู่ด้วยและเรากลัวตัวเองมากตอนนี้,crisis_help
+ช่วยแจ้งคนใกล้ตัวเราด่วนที่สุด,crisis_help
+เราต้องการคนช่วยตอนนี้ไม่ใช่พรุ่งนี้,crisis_help
+สถานการณ์ตอนนี้ฉุกเฉินมากช่วยตอบด่วน,crisis_help
 ช่วยหน่อย,crisis_help
 ไม่ไหวแล้ว,crisis_help
 อยากตาย,crisis_help
@@ -147,6 +177,7 @@ text,label
 เรากำลังจะแย่จริงๆ,crisis_help
 ช่วยเราตอนนี้ได้ไหม,crisis_help
 รู้สึกอันตรายกับตัวเอง,crisis_help
+
 ขอข้อมูลหน่อย,information
 อยากรู้เรื่องโรคซึมเศร้า,information
 burnout คืออะไร,information
