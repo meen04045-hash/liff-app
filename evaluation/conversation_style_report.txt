@@ -1,0 +1,39 @@
+==================================================
+Conversation Style Model Evaluation
+==================================================
+Accuracy: 0.558824
+
+Precision / Recall / F1-score:
+
+              precision    recall  f1-score   support
+
+      casual       0.50      0.67      0.57         6
+    detailed       1.00      0.50      0.67         4
+      direct       0.75      0.75      0.75         4
+    friendly       0.50      0.33      0.40         6
+      gentle       0.67      0.50      0.57         4
+motivational       0.50      0.50      0.50         4
+     serious       0.44      0.67      0.53         6
+
+    accuracy                           0.56        34
+   macro avg       0.62      0.56      0.57        34
+weighted avg       0.60      0.56      0.56        34
+
+Confusion Matrix:
+Labels: ['casual', 'detailed', 'direct', 'friendly', 'gentle', 'motivational', 'serious']
+[[4 0 0 2 0 0 0]
+ [0 2 1 0 0 1 0]
+ [1 0 3 0 0 0 0]
+ [1 0 0 2 1 0 2]
+ [0 0 0 0 2 1 1]
+ [0 0 0 0 0 2 2]
+ [2 0 0 0 0 0 4]]
+
+5-Fold Cross Validation:
+Fold 1: 0.735294
+Fold 2: 0.676471
+Fold 3: 0.705882
+Fold 4: 0.617647
+Fold 5: 0.764706
+Mean Accuracy: 0.700000
+Standard Deviation: 0.050602

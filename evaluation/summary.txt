@@ -1,0 +1,28 @@
+================================================
+MODEL SUMMARY
+================================================
+
+Risk
+Accuracy : 62.3%
+Cross Validation : 68.3%
+----------------------------------------
+Emotion
+Accuracy : 71.2%
+Cross Validation : 69.4%
+----------------------------------------
+Problem
+Accuracy : 72.4%
+Cross Validation : 70.9%
+----------------------------------------
+Support Need
+Accuracy : 71.4%
+Cross Validation : 70.7%
+----------------------------------------
+Intent
+Accuracy : 76.3%
+Cross Validation : 73.4%
+----------------------------------------
+Conversation Style
+Accuracy : 55.9%
+Cross Validation : 70.0%
+----------------------------------------

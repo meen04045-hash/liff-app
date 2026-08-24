@@ -1,0 +1,4 @@
+import requests
+
+r = requests.get("https://api.line.me")
+print(r.status_code)

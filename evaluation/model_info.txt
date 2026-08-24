@@ -1,0 +1,37 @@
+Python Version: 3.14.3
+scikit-learn Version: 1.8.0
+PyThaiNLP Version: 5.3.4
+LinearSVC Parameters: C=1.0, class_weight='balanced', random_state=42
+CalibratedClassifierCV Parameters: cv=min(5, smallest training class size)
+TF-IDF Parameters: tokenizer=PyThaiNLP newmm, token_pattern=None
+Training Date: 2026-08-24T10:52:59
+
+Risk
+Vocabulary Size: 965
+Training Samples: 952
+Testing Samples: 239
+
+Emotion
+Vocabulary Size: 619
+Training Samples: 232
+Testing Samples: 59
+
+Problem
+Vocabulary Size: 672
+Training Samples: 231
+Testing Samples: 58
+
+Support Need
+Vocabulary Size: 515
+Training Samples: 139
+Testing Samples: 35
+
+Intent
+Vocabulary Size: 511
+Training Samples: 150
+Testing Samples: 38
+
+Conversation Style
+Vocabulary Size: 477
+Training Samples: 136
+Testing Samples: 34

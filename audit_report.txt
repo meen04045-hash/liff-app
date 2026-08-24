@@ -1,0 +1,127 @@
+Dataset audit — directory: C:\Users\MeNos\Desktop\โปรเจค\dataset
+
+==============================================================================
+FILE: risk.csv  (rows: 1191, labels: 8)
+==============================================================================
+
+Label distribution:
+  risk_passive                  169
+  stress                        167
+  normal                        166
+  depression                    161
+  risk_suicidal_ideation        142
+  risk_self_harm                129
+  risk_suicide_plan             129
+  risk_immediate_danger         128
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+FILE: emotion.csv  (rows: 291, labels: 7)
+==============================================================================
+
+Label distribution:
+  sad                            60
+  happy                          52
+  angry                          40
+  fear                           40
+  tired                          40
+  confused                       40
+  neutral                        19
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+FILE: problem.csv  (rows: 289, labels: 9)
+==============================================================================
+
+Label distribution:
+  self_esteem                    45
+  academic                       37
+  financial                      36
+  health                         31
+  work                           30
+  relationship                   30
+  family                         30
+  social                         30
+  none                           20
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+FILE: support_need.csv  (rows: 174, labels: 6)
+==============================================================================
+
+Label distribution:
+  encouragement                  30
+  calming                        30
+  information                    30
+  listener                       29
+  advice                         29
+  crisis_support                 26
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+FILE: intent.csv  (rows: 188, labels: 7)
+==============================================================================
+
+Label distribution:
+  crisis_help                    35
+  venting                        30
+  ask_advice                     30
+  emotional_support              30
+  assessment                     24
+  smalltalk                      24
+  information                    15
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+FILE: conversation_style.csv  (rows: 170, labels: 7)
+==============================================================================
+
+Label distribution:
+  casual                         30
+  serious                        30
+  friendly                       30
+  direct                         20
+  detailed                       20
+  gentle                         20
+  motivational                   20
+
+Exact duplicate rows (same text + same label): 0
+
+Cross-label conflicts (same text, different labels): 0
+
+==============================================================================
+CROSS-FILE TEXT REUSE (informational only, not an error)
+==============================================================================
+
+Texts appearing in more than one dataset file: 56
+  "กินข้าวยัง" in 3 files -> risk:normal, emotion:neutral, intent:smalltalk
+  "ช่วยอยู่ข้างๆหน่อย" in 3 files -> support_need:encouragement, intent:emotional_support, conversation_style:gentle
+  "วันนี้อากาศดี" in 3 files -> risk:normal, emotion:neutral, problem:none
+  "รู้สึกโดดเดี่ยว" in 3 files -> risk:depression, emotion:sad, problem:social
+  "อยากได้คำปลอบใจ" in 3 files -> support_need:encouragement, intent:emotional_support, conversation_style:gentle
+  "กำลังร้องไห้หนักมาก" in 2 files -> support_need:crisis_support, intent:crisis_help
+  "กำลังทำอะไรอยู่" in 2 files -> intent:smalltalk, conversation_style:casual
+  "กลัวอนาคตที่ยังมาไม่ถึง" in 2 files -> risk:stress, emotion:fear
+  "ขอบคุณนะ" in 2 files -> risk:normal, problem:none
+  "ขอพื้นที่ระบายหน่อย" in 2 files -> support_need:listener, intent:venting
+  "ควรเริ่มจากตรงไหนดี" in 2 files -> support_need:advice, intent:ask_advice
+  "ควรทำยังไงดี" in 2 files -> support_need:advice, intent:ask_advice
+  "ช่วยปลอบเราที" in 2 files -> intent:emotional_support, conversation_style:gentle
+  "ช่วยหยุดความคิดนี้ที" in 2 files -> support_need:crisis_support, intent:crisis_help
+  "ช่วยอยู่เป็นเพื่อนหน่อย" in 2 files -> support_need:listener, intent:venting
+  ... and 41 more
