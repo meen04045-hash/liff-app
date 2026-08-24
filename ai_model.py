@@ -54,7 +54,7 @@ def tokenize(text: object) -> str:
 
 
 def create_vectorizer() -> TfidfVectorizer:
-    return TfidfVectorizer(tokenizer=tokenize, token_pattern=None)
+    return TfidfVectorizer(tokenizer=tokenize, token_pattern=None, ngram_range=(1, 2), min_df=1)
 
 
 def create_classifier(minimum_class_samples: int = 5) -> CalibratedClassifierCV:
