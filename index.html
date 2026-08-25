@@ -1055,55 +1055,79 @@
         // =====================================
         // REPORTS GENERATION
         // =====================================
-        function get9QText(score) {
-            if (score < 7) return "ไม่มีภาวะซึมเศร้า หรือมีระดับน้อยมาก";
-            if (score <= 12) return "มีภาวะซึมเศร้า ระดับน้อย";
-            if (score <= 18) return "มีภาวะซึมเศร้า ระดับปานกลาง";
-            return "มีภาวะซึมเศร้า ระดับรุนแรง";
-        }
-
-        function get8QText(score) {
-            if (score === 0) return "ไม่มีแนวโน้มทำร้ายตนเอง/ฆ่าตัวตาย";
-            if (score <= 8) return "มีแนวโน้มทำร้ายตนเอง/ฆ่าตัวตาย ระดับน้อย";
-            if (score <= 16) return "มีแนวโน้มทำร้ายตนเอง/ฆ่าตัวตาย ระดับปานกลาง";
-            return "มีแนวโน้มทำร้ายตนเอง/ฆ่าตัวตาย ระดับรุนแรง";
+        function get9QLevel(score) {
+            if (score < 7) return "ระดับน้อยมาก";
+            if (score <= 12) return "ระดับน้อย";
+            if (score <= 18) return "ระดับปานกลาง";
+            return "ระดับรุนแรง";
         }
 
         function generateReport(score9, score8, stepFinished) {
-            if (stepFinished === 0) {
-                // 2Q Normal
-                finalReport = "📋 ผลการประเมินสุขภาพจิตของคุณ\n\n• แบบประเมินคัดกรอง 2Q: ปกติ 😊";
-                document.getElementById('score-val-low').innerText = "ปกติ";
-                document.getElementById('desc-result-low').innerHTML = "ผลการคัดกรอง 2Q ระบุว่าสุขภาพจิตของคุณเป็นปกติ ไม่มีภาวะซึมเศร้าเบื้องต้น";
-                showScreen('view-result-low');
-            }
-            else if (stepFinished === 9) {
-                // 9Q Completed & Normal
-                const text9Q = get9QText(score9);
-                finalReport = `📋 ผลการประเมินสุขภาพจิตของคุณ\n\n• คะแนนรวม 9Q: ${score9} / 27 คะแนน\n• ผลการประเมิน: ${text9Q}`;
-                
-                document.getElementById('score-val-low').innerText = `${score9} / 27`;
-                document.getElementById('desc-result-low').innerHTML = `ผลการคัดกรองระบุว่าคุณ <strong>${text9Q}</strong>`;
-                showScreen('view-result-low');
-            }
-            else if (stepFinished === 8) {
-                // 8Q Completed
-                const text9Q = get9QText(score9);
-                const text8Q = get8QText(score8);
-                
-                finalReport = `📋 ผลการประเมินสุขภาพจิตของคุณ\n\n• คะแนนรวม 9Q: ${score9} / 27 คะแนน (${text9Q})\n• คะแนนความเสี่ยง 8Q: ${score8} / 44 คะแนน (${text8Q})`;
 
-                if (score8 > 0) {
-                    document.getElementById('score-val-high').innerText = `${score8} / 44`;
-                    document.getElementById('desc-result-high').innerHTML = `ผลการประเมินพบว่าคุณ <strong>${text8Q}</strong><br>และมีผลประเมินซึมเศร้า: ${text9Q}<br><br><span style="color: var(--danger); font-weight: 600;">แนะนำให้ติดต่อสายด่วน 1323 หรือพบผู้เชี่ยวชาญทันที</span>`;
-                    showScreen('view-result-high');
-                } else {
-                    document.getElementById('score-val-low').innerText = `9Q: ${score9} | 8Q: 0`;
-                    document.getElementById('desc-result-low').innerHTML = `ผลการประเมิน: <strong>${text9Q}</strong><br>และไม่มีแนวโน้มความเสี่ยงในการทำร้ายตนเอง`;
-                    showScreen('view-result-low');
-                }
-            }
-        }
+    // =====================================
+    // 2Q Completed
+    // =====================================
+    if (stepFinished === 0) {
+
+        finalReport =
+            `📋 ผลการประเมิน\n\n` +
+            `• คะแนน 2Q: 0 / 2 คะแนน`;
+
+        document.getElementById('score-val-low').innerText =
+            "2Q: 0 / 2";
+
+        document.getElementById('desc-result-low').innerHTML =
+            `ผลคะแนนแบบประเมิน 2Q`;
+
+        showScreen('view-result-low');
+    }
+
+    // =====================================
+    // 9Q Completed
+    // =====================================
+    else if (stepFinished === 9) {
+
+        const level9Q = get9QLevel(score9);
+
+        finalReport =
+            `📋 ผลการประเมิน\n\n` +
+            `• คะแนน 9Q: ${score9} / 27 คะแนน\n` +
+            `• ระดับคะแนน: ${level9Q}`;
+
+        document.getElementById('score-val-low').innerText =
+            `${score9} / 27`;
+
+        document.getElementById('desc-result-low').innerHTML =
+            `คะแนนแบบประเมิน 9Q<br>` +
+            `ระดับคะแนน: <strong>${level9Q}</strong>`;
+
+        showScreen('view-result-low');
+    }
+
+    // =====================================
+    // 8Q Completed
+    // =====================================
+    else if (stepFinished === 8) {
+
+        const level9Q = get9QLevel(score9);
+
+        finalReport =
+            `📋 ผลการประเมิน\n\n` +
+            `• คะแนน 9Q: ${score9} / 27 คะแนน\n` +
+            `• ระดับคะแนน 9Q: ${level9Q}\n` +
+            `• คะแนน 8Q: ${score8} / 44 คะแนน`;
+
+        document.getElementById('score-val-high').innerText =
+            `${score8} / 44`;
+
+        document.getElementById('desc-result-high').innerHTML =
+            `คะแนนแบบประเมิน 9Q: <strong>${score9} / 27</strong><br>` +
+            `ระดับคะแนน 9Q: <strong>${level9Q}</strong><br><br>` +
+            `คะแนนแบบประเมิน 8Q: <strong>${score8} / 44</strong>`;
+
+        showScreen('view-result-high');
+    }
+}
 
         function goToAdvice() {
             showScreen('view-advice');

@@ -1,11 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-ช่วยเตือนว่าเรายังไหว,motivational,serious,0.5385338377605344
-พูดตรงๆเลย,direct,gentle,0.23984275548827388
-อยากเริ่มต้นใหม่,motivational,serious,0.2937322402320374
-อยากได้คำตอบยาวๆ,detailed,direct,0.48346431859962175
-มีเรื่องหนักใจมาก,serious,casual,0.3843997092909812
-อยากได้กำลังใจ,gentle,motivational,0.47004932175630004
-ช่วยแจกแจงหน่อย,detailed,motivational,0.4571484889085382
-ไม่ต้องจริงจังเกิน,friendly,serious,0.5915585042752836
-ไม่อยากอยู่คนเดียวตอนนี้,serious,casual,0.5425921780027207
-วันนี้เป็นไงบ้าง,casual,friendly,0.25829221276186676
+พูดตรงๆเลย,direct,casual,0.3229245151008236
+มีเรื่องหนักใจมาก,serious,casual,0.3902101660415788
+อยากได้คำตอบยาวๆ,detailed,direct,0.43920767133310223
+ช่วยแจกแจงหน่อย,detailed,serious,0.3401466150696445
+อยากได้กำลังใจ,gentle,serious,0.3182862568088144
+วันนี้เป็นไงบ้าง,casual,friendly,0.3208316808374111
+อยากคุยแบบอบอุ่น,friendly,gentle,0.38954674791880534
+ขอคนคุยตอนดึกหน่อย,casual,serious,0.29138370364217925
+ช่วยเตือนว่าเรายังไหว,motivational,serious,0.541244478638415
