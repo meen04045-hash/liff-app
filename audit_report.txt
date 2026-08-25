@@ -1,14 +1,14 @@
 Dataset audit — directory: C:\Users\MeNos\Desktop\project\dataset
 
 ==============================================================================
-FILE: risk.csv  (rows: 1191, labels: 8)
+FILE: risk.csv  (rows: 1201, labels: 8)
 ==============================================================================
 
 Label distribution:
+  depression                    171
   risk_passive                  169
   stress                        167
   normal                        166
-  depression                    161
   risk_suicidal_ideation        142
   risk_self_harm                129
   risk_suicide_plan             129
@@ -19,15 +19,15 @@ Exact duplicate rows (same text + same label): 0
 Cross-label conflicts (same text, different labels): 0
 
 ==============================================================================
-FILE: emotion.csv  (rows: 289, labels: 7)
+FILE: emotion.csv  (rows: 309, labels: 7)
 ==============================================================================
 
 Label distribution:
-  sad                            58
+  sad                            68
   happy                          52
+  tired                          50
   angry                          40
   fear                           40
-  tired                          40
   confused                       40
   neutral                        19
 
@@ -55,11 +55,11 @@ Exact duplicate rows (same text + same label): 0
 Cross-label conflicts (same text, different labels): 0
 
 ==============================================================================
-FILE: support_need.csv  (rows: 174, labels: 6)
+FILE: support_need.csv  (rows: 182, labels: 6)
 ==============================================================================
 
 Label distribution:
-  encouragement                  30
+  encouragement                  38
   calming                        30
   information                    30
   listener                       29
@@ -88,15 +88,15 @@ Exact duplicate rows (same text + same label): 0
 Cross-label conflicts (same text, different labels): 0
 
 ==============================================================================
-FILE: conversation_style.csv  (rows: 167, labels: 7)
+FILE: conversation_style.csv  (rows: 195, labels: 7)
 ==============================================================================
 
 Label distribution:
+  serious                        40
+  friendly                       37
   casual                         30
-  serious                        30
-  friendly                       27
+  detailed                       28
   direct                         20
-  detailed                       20
   gentle                         20
   motivational                   20
 

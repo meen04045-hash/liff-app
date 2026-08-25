@@ -1,11 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-อยากจัดการอารมณ์ตัวเอง,advice,calming,0.510126471706165
-ควรขอความช่วยเหลือจากใครดี,advice,crisis_support,0.4096750598184903
-ช่วยรับฟังเราหน่อย,listener,calming,0.37931112482759227
-วันนี้เหนื่อยมากเลย,encouragement,crisis_support,0.37595428828961597
-วิธีจัดการอารมณ์โกรธทำยังไง,information,advice,0.5860456305250475
-อยากได้ข้อมูลหรือความรู้,information,encouragement,0.3900049908936641
-อยากมีคนบอกว่ายังไหว,encouragement,advice,0.3234852082704324
-ช่วยบอกทางหน่อย,advice,encouragement,0.37507004625822754
-ช่วยคิดหน่อยได้ไหม,advice,encouragement,0.2791776168264173
-ตอนนี้ใจไม่ไหวจริงๆ,crisis_support,encouragement,0.370236344912239
+ช่วยอยู่ข้างๆหน่อย,encouragement,listener,0.38833816988887065
+ทำไมถึงนอนไม่หลับเวลาเครียด,information,calming,0.4678836870573235
+ช่วยบอกทีว่าต้องทำยังไง,advice,encouragement,0.47576167630430016
+รู้สึกเหมือนจะไม่ไหวแล้ว,encouragement,crisis_support,0.32494179348800994
+มีเรื่องอยากเล่า,listener,encouragement,0.21997004708841975
+วันนี้เหนื่อยมากเลย,encouragement,crisis_support,0.403507376695255
+ช่วยบอกทางหน่อย,advice,encouragement,0.4549643112545067
+อยากจัดการอารมณ์ตัวเอง,advice,calming,0.40491720094079564
+ช่วยอยู่เป็นเพื่อนหน่อย,listener,calming,0.2647631365653668
