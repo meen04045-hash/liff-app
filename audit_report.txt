@@ -1,11 +1,11 @@
 Dataset audit — directory: C:\Users\MeNos\Desktop\project\dataset
 
 ==============================================================================
-FILE: risk.csv  (rows: 1201, labels: 8)
+FILE: risk.csv  (rows: 1211, labels: 8)
 ==============================================================================
 
 Label distribution:
-  risk_passive                  184
+  risk_passive                  194
   stress                        167
   normal                        166
   depression                    156

@@ -3,8 +3,8 @@ MODEL SUMMARY
 ================================================
 
 Risk
-Accuracy : 64.3%
-Cross Validation : 69.8%
+Accuracy : 70.8%
+Cross Validation : 69.0%
 ----------------------------------------
 Emotion
 Accuracy : 76.1%
