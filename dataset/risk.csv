@@ -169,7 +169,6 @@ text,label
 
 รู้สึกเหมือนตัวเองติดอยู่ในหมอกทึบไปหมด,depression
 ไม่มีเรี่ยวแรงจะยิ้มให้ใครแล้ว,depression
-ทุกวันผ่านไปเหมือนกันหมดไม่มีความหมาย,depression
 รู้สึกชาไปหมดทั้งตัวไม่รู้สึกอะไรเลย,depression
 ไม่อยากดูแลตัวเองแม้แต่เรื่องพื้นฐาน,depression
 เศร้าแบบที่อธิบายเป็นคำพูดไม่ได้,depression
@@ -196,15 +195,11 @@ text,label
 รู้สึกโดดเดี่ยว,depression
 ไม่มีใครเข้าใจ,depression
 ไม่อยากเจอใคร,depression
-ชีวิตไม่มีค่า,depression
-รู้สึกไร้ค่า,depression
 ไม่อยากลุกจากเตียง,depression
 หมดกำลังใจ,depression
-ไม่มีแรงจะใช้ชีวิต,depression
 ไม่สนใจอะไรแล้ว,depression
 รู้สึกเฉยๆกับทุกอย่าง,depression
 โลกมันน่าเบื่อ,depression
-ไม่มีความหมายเลย,depression
 ไม่อยากคุยกับใคร,depression
 ทุกอย่างดูแย่ไปหมด,depression
 เหมือนจมอยู่ในมหาสมุทรที่มองไม่เห็นฝั่ง,depression
@@ -216,7 +211,6 @@ text,label
 ร้องไห้ไม่ออกแต่มันจุกในอก,depression
 ทำไมเรายิ้มไม่ได้เหมือนคนอื่น,depression
 แม้แต่สิ่งที่เคยชอบก็ไม่อยากทำ,depression
-อยากหายไปเงียบๆ,depression
 รู้สึกเหมือนติดอยู่ในห้องมืดคนเดียว,depression
 พยายามมีความสุขแต่เหนื่อยเกินไป,depression
 ไม่รู้ว่าอยู่ไปเพื่ออะไร,depression
@@ -226,7 +220,6 @@ text,label
 ใช้ชีวิตไปวันๆแบบไม่มีเป้าหมาย,depression
 ความเศร้ากัดกินใจทุกวัน,depression
 ทำอะไรก็รู้สึกว่าตัวเองผิด,depression
-อยากหลับไปนานๆ,depression
 ไม่มีเสียงหัวเราะมานานแล้ว,depression
 หัวใจมันชาไปหมด,depression
 ฝืนยิ้มจนเหนื่อย,depression
@@ -240,7 +233,6 @@ text,label
 รู้สึกเหนื่อยกับชีวิตมาก,depression
 ไม่เห็นคุณค่าของตัวเอง,depression
 เหมือนโลกทั้งใบกำลังถล่ม,depression
-ไม่มีแรงแม้แต่จะร้องไห้,depression
 รู้สึกโดดเดี่ยวแม้อยู่ท่ามกลางคนเยอะๆ,depression
 ไม่มีอะไรทำให้รู้สึกดีขึ้นเลย,depression
 ทุกวันเหมือนเดิมไม่มีอะไรดีขึ้น,depression
@@ -255,10 +247,8 @@ text,label
 รู้สึกมืดแปดด้าน,depression
 ชีวิตมันเงียบเกินไป,depression
 ไม่มีแรงแม้แต่จะคิด,depression
-อยากหายไปจากตรงนี้,depression
 รู้สึกเหมือนตัวเองไม่สำคัญ,depression
 ไม่มีใครสังเกตว่าเรากำลังพัง,depression
-โลกนี้ไม่เหลือที่สำหรับเรา,depression
 รู้สึกหลงทางในชีวิต,depression
 เศร้าจนกินอะไรไม่ลง,depression
 ไม่อยากตอบข้อความใคร,depression
@@ -301,13 +291,10 @@ text,label
 ไม่มีแรงจะฝันอะไรอีก,depression
 ทุกอย่างดูไร้สีสัน,depression
 เหมือนตัวเองจมหายไปเรื่อยๆ,depression
-รู้สึกไม่มีที่ยืน,depression
 แค่ใช้ชีวิตในแต่ละวันก็เหนื่อยมาก,depression
 ไม่รู้ว่าควรขอความช่วยเหลือจากใคร,depression
-ไม่อยากเป็นภาระให้ใคร,depression
 บางวันก็ไม่อยากตื่นขึ้นมา,depression
 เหมือนใจถูกบีบไว้ตลอดเวลา,depression
-ไม่เหลือพลังใจแล้ว,depression
 เศร้าจนปวดใจ,depression
 ไม่มีแรงแม้แต่จะยิ้มตอบ,depression
 รู้สึกว่าตัวเองหายไปจากความทรงจำของทุกคน,depression
@@ -319,10 +306,8 @@ text,label
 ชีวิตเหมือนไม่มีแสงสว่าง,depression
 ใจมันว่างจนเจ็บ,depression
 ทุกอย่างค่อยๆพังลงต่อหน้า,depression
-เหมือนตัวเองไม่มีค่าในสายตาใคร,depression
 เศร้าจนไม่อยากลืมตา,depression
 ไม่มีอะไรน่ารอคอยอีกแล้ว,depression
-อยากหายไปจากทุกอย่าง,depression
 รู้สึกเหมือนอยู่คนเดียวบนโลก,depression
 เศ้ามากก,depression
 ไม่ไหวละ,depression
@@ -339,6 +324,21 @@ text,label
 รู้สึกตัวเองไร้ประสิทธิภาพในทุกเรื่อง,depression
 อารมณ์เรียบเฉยไม่ขึ้นไม่ลงมาหลายวันแล้ว,depression
 
+ชีวิตไม่มีค่า,risk_passive
+รู้สึกไร้ค่า,risk_passive
+ไม่มีแรงจะใช้ชีวิต,risk_passive
+ไม่มีความหมายเลย,risk_passive
+อยากหายไปเงียบๆ,risk_passive
+อยากหลับไปนานๆ,risk_passive
+ไม่มีแรงแม้แต่จะร้องไห้,risk_passive
+อยากหายไปจากตรงนี้,risk_passive
+โลกนี้ไม่เหลือที่สำหรับเรา,risk_passive
+รู้สึกไม่มีที่ยืน,risk_passive
+ไม่อยากเป็นภาระให้ใคร,risk_passive
+ไม่เหลือพลังใจแล้ว,risk_passive
+เหมือนตัวเองไม่มีค่าในสายตาใคร,risk_passive
+อยากหายไปจากทุกอย่าง,risk_passive
+ทุกวันผ่านไปเหมือนกันหมดไม่มีความหมาย,risk_passive
 อยากหายไป,risk_passive
 ไม่อยากอยู่แล้ว,risk_passive
 ไม่อยากตื่นขึ้นมา,risk_passive
