@@ -1,10 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-ช่วยอยู่ข้างๆหน่อย,encouragement,listener,0.38833816988887065
-ทำไมถึงนอนไม่หลับเวลาเครียด,information,calming,0.4678836870573235
-ช่วยบอกทีว่าต้องทำยังไง,advice,encouragement,0.47576167630430016
-รู้สึกเหมือนจะไม่ไหวแล้ว,encouragement,crisis_support,0.32494179348800994
-มีเรื่องอยากเล่า,listener,encouragement,0.21997004708841975
-วันนี้เหนื่อยมากเลย,encouragement,crisis_support,0.403507376695255
-ช่วยบอกทางหน่อย,advice,encouragement,0.4549643112545067
-อยากจัดการอารมณ์ตัวเอง,advice,calming,0.40491720094079564
-ช่วยอยู่เป็นเพื่อนหน่อย,listener,calming,0.2647631365653668
+อยากพูดสิ่งที่อยู่ในใจ,listener,encouragement,0.4228111579916195
+รู้สึกควบคุมตัวเองไม่ได้,calming,crisis_support,0.6090601008595458
+ควรขอความช่วยเหลือจากใครดี,advice,crisis_support,0.5010319943260617
+ช่วยติดต่อสายด่วนให้หน่อย,crisis_support,calming,0.6171709058434793
+อยากได้ข้อมูลหรือความรู้,information,advice,0.3871457545617414
+ช่วยพาเรากลับมาสงบที,calming,crisis_support,0.28496329975610707
+ตอนนี้ใจไม่ไหวจริงๆ,crisis_support,information,0.3187888603332888
+อยากจัดการอารมณ์ตัวเอง,advice,information,0.3320465093143376
+รู้สึกเหมือนจะไม่ไหวแล้ว,encouragement,crisis_support,0.3381230446606384

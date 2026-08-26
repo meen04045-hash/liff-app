@@ -55,15 +55,15 @@ Exact duplicate rows (same text + same label): 0
 Cross-label conflicts (same text, different labels): 0
 
 ==============================================================================
-FILE: support_need.csv  (rows: 182, labels: 6)
+FILE: support_need.csv  (rows: 190, labels: 6)
 ==============================================================================
 
 Label distribution:
   encouragement                  38
+  advice                         37
   calming                        30
   information                    30
   listener                       29
-  advice                         29
   crisis_support                 26
 
 Exact duplicate rows (same text + same label): 0
