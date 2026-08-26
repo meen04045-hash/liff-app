@@ -1,7 +1,7 @@
 ==================================================
 Emotion Model Evaluation
 ==================================================
-Accuracy: 0.661290
+Accuracy: 0.761194
 
 Precision / Recall / F1-score:
 
@@ -10,30 +10,30 @@ Precision / Recall / F1-score:
        angry       1.00      0.75      0.86         8
     confused       0.80      0.50      0.62         8
         fear       1.00      0.88      0.93         8
-       happy       0.78      0.70      0.74        10
-     neutral       0.00      0.00      0.00         4
-         sad       0.44      0.57      0.50        14
-       tired       0.53      0.90      0.67        10
+       happy       0.67      0.80      0.73        10
+     neutral       0.89      0.89      0.89         9
+         sad       0.53      0.62      0.57        13
+       tired       0.77      0.91      0.83        11
 
-    accuracy                           0.66        62
-   macro avg       0.65      0.61      0.62        62
-weighted avg       0.67      0.66      0.65        62
+    accuracy                           0.76        67
+   macro avg       0.81      0.76      0.78        67
+weighted avg       0.78      0.76      0.76        67
 
 Confusion Matrix:
 Labels: ['angry', 'confused', 'fear', 'happy', 'neutral', 'sad', 'tired']
-[[6 0 0 0 0 2 0]
- [0 4 0 0 0 4 0]
- [0 0 7 1 0 0 0]
- [0 0 0 7 0 2 1]
- [0 0 0 1 0 2 1]
- [0 0 0 0 0 8 6]
- [0 1 0 0 0 0 9]]
+[[ 6  0  0  0  0  2  0]
+ [ 0  4  0  0  0  4  0]
+ [ 0  0  7  1  0  0  0]
+ [ 0  0  0  8  0  1  1]
+ [ 0  0  0  1  8  0  0]
+ [ 0  1  0  1  1  8  2]
+ [ 0  0  0  1  0  0 10]]
 
 5-Fold Cross Validation:
-Fold 1: 0.645161
-Fold 2: 0.758065
-Fold 3: 0.854839
-Fold 4: 0.709677
-Fold 5: 0.688525
-Mean Accuracy: 0.731253
-Standard Deviation: 0.071687
+Fold 1: 0.791045
+Fold 2: 0.731343
+Fold 3: 0.791045
+Fold 4: 0.746269
+Fold 5: 0.696970
+Mean Accuracy: 0.751334
+Standard Deviation: 0.036152

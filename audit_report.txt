@@ -5,10 +5,10 @@ FILE: risk.csv  (rows: 1201, labels: 8)
 ==============================================================================
 
 Label distribution:
-  depression                    171
-  risk_passive                  169
+  risk_passive                  184
   stress                        167
   normal                        166
+  depression                    156
   risk_suicidal_ideation        142
   risk_self_harm                129
   risk_suicide_plan             129
@@ -19,17 +19,17 @@ Exact duplicate rows (same text + same label): 0
 Cross-label conflicts (same text, different labels): 0
 
 ==============================================================================
-FILE: emotion.csv  (rows: 309, labels: 7)
+FILE: emotion.csv  (rows: 334, labels: 7)
 ==============================================================================
 
 Label distribution:
-  sad                            68
+  sad                            63
+  tired                          55
   happy                          52
-  tired                          50
+  neutral                        44
   angry                          40
   fear                           40
   confused                       40
-  neutral                        19
 
 Exact duplicate rows (same text + same label): 0
 

@@ -4,10 +4,10 @@ Number of Labels: 8
 Missing Values: 0
 Duplicate Rows: 0
 Label Distribution:
-depression: 171
-risk_passive: 169
+risk_passive: 184
 stress: 167
 normal: 166
+depression: 156
 risk_suicidal_ideation: 142
 risk_self_harm: 129
 risk_suicide_plan: 129
@@ -16,18 +16,18 @@ risk_immediate_danger: 128
 ----------------------------------------
 
 Emotion Dataset
-Total Samples: 309
+Total Samples: 334
 Number of Labels: 7
 Missing Values: 0
 Duplicate Rows: 0
 Label Distribution:
-sad: 68
+sad: 63
+tired: 55
 happy: 52
-tired: 50
+neutral: 44
 angry: 40
 fear: 40
 confused: 40
-neutral: 19
 
 ----------------------------------------
 
