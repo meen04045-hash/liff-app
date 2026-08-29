@@ -1,10 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-มีวิธีดูแลสุขภาพจิตไหม,information,ask_advice,0.5721275942985569
-อยากพูดสิ่งที่เก็บไว้,venting,emotional_support,0.3424834986107727
-ยาคลายเครียดคืออะไร,information,venting,0.38834038918915803
-กำลังร้องไห้หนักมาก,crisis_help,venting,0.4294118424753025
-หวัดดี,smalltalk,ask_advice,0.45802950564474365
-ขอคุยเล่นหน่อย,smalltalk,venting,0.5208631841474441
-ช่วยอยู่เป็นเพื่อนหน่อย,venting,smalltalk,0.6870599047817486
-ช่วยฮีลใจหน่อย,emotional_support,ask_advice,0.40516513891437744
-วันนี้เหนื่อยมากจริงๆ,venting,smalltalk,0.5414327527079379
+มีวิธีดูแลสุขภาพจิตไหม,information,ask_advice,0.5839377520471218
+อยากพูดสิ่งที่เก็บไว้,venting,emotional_support,0.2814202560957483
+ยาคลายเครียดคืออะไร,information,venting,0.26270591518798136
+กำลังร้องไห้หนักมาก,crisis_help,venting,0.45535604515369543
+หวัดดี,smalltalk,ask_advice,0.44083400639703463
+ขอคุยเล่นหน่อย,smalltalk,venting,0.5382862207309956
+ช่วยอยู่เป็นเพื่อนหน่อย,venting,smalltalk,0.7114281496808237
+ช่วยฮีลใจหน่อย,emotional_support,ask_advice,0.42638209010927597
+วันนี้เหนื่อยมากจริงๆ,venting,smalltalk,0.6064055645716222

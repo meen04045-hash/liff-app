@@ -30,10 +30,10 @@ Labels: ['ask_advice', 'assessment', 'crisis_help', 'emotional_support', 'inform
  [0 0 0 1 0 2 3]]
 
 5-Fold Cross Validation:
-Fold 1: 0.789474
+Fold 1: 0.763158
 Fold 2: 0.736842
-Fold 3: 0.736842
-Fold 4: 0.675676
-Fold 5: 0.729730
-Mean Accuracy: 0.733713
-Standard Deviation: 0.036092
+Fold 3: 0.789474
+Fold 4: 0.729730
+Fold 5: 0.756757
+Mean Accuracy: 0.755192
+Standard Deviation: 0.021101

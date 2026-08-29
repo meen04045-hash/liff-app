@@ -1,10 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-อยากพูดสิ่งที่อยู่ในใจ,listener,encouragement,0.4228111579916195
-รู้สึกควบคุมตัวเองไม่ได้,calming,crisis_support,0.6090601008595458
-ควรขอความช่วยเหลือจากใครดี,advice,crisis_support,0.5010319943260617
-ช่วยติดต่อสายด่วนให้หน่อย,crisis_support,calming,0.6171709058434793
-อยากได้ข้อมูลหรือความรู้,information,advice,0.3871457545617414
-ช่วยพาเรากลับมาสงบที,calming,crisis_support,0.28496329975610707
-ตอนนี้ใจไม่ไหวจริงๆ,crisis_support,information,0.3187888603332888
-อยากจัดการอารมณ์ตัวเอง,advice,information,0.3320465093143376
-รู้สึกเหมือนจะไม่ไหวแล้ว,encouragement,crisis_support,0.3381230446606384
+อยากพูดสิ่งที่อยู่ในใจ,listener,encouragement,0.41467144175348736
+รู้สึกควบคุมตัวเองไม่ได้,calming,crisis_support,0.6346076230820212
+ควรขอความช่วยเหลือจากใครดี,advice,crisis_support,0.5822892500713378
+ช่วยติดต่อสายด่วนให้หน่อย,crisis_support,calming,0.5284569740105259
+อยากได้ข้อมูลหรือความรู้,information,advice,0.43862132903696754
+ช่วยพาเรากลับมาสงบที,calming,crisis_support,0.2690596376419139
+ตอนนี้ใจไม่ไหวจริงๆ,crisis_support,calming,0.36130964240876884
+อยากจัดการอารมณ์ตัวเอง,advice,information,0.36736506163019816
+รู้สึกเหมือนจะไม่ไหวแล้ว,encouragement,crisis_support,0.320157840910516

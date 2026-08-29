@@ -1,11 +1,10 @@
 ﻿Original Text,True Label,Predicted Label,Confidence Score
-คุยกันเพลินๆ,casual,friendly,0.5117111682157276
-อยากเข้าใจจริงๆ,detailed,serious,0.40611075020834564
-อยากคุยแบบอบอุ่น,friendly,gentle,0.4138674479389855
-อยากได้ตัวอย่างด้วย,detailed,motivational,0.352175394235791
-ขอแบบลงลึก,detailed,direct,0.2966734482355326
-อยากได้กำลังใจ,gentle,motivational,0.44392012829994226
-ขอคนคุยตอนดึกหน่อย,casual,gentle,0.29208290683617316
-ตอบเร็วๆได้ไหม,direct,detailed,0.24240511621983182
-อยากหาเพื่อนคุย,casual,friendly,0.5841131124445063
-เอาใจความพอ,direct,gentle,0.4190754965155333
+คุยกันเพลินๆ,casual,friendly,0.4977206800251013
+อยากเข้าใจจริงๆ,detailed,serious,0.3821102991343239
+อยากคุยแบบอบอุ่น,friendly,gentle,0.4469138718921563
+อยากได้ตัวอย่างด้วย,detailed,motivational,0.30223327578299125
+ขอแบบลงลึก,detailed,direct,0.35356176532636774
+อยากได้กำลังใจ,gentle,motivational,0.4088319288561683
+ตอบเร็วๆได้ไหม,direct,detailed,0.2625910493574435
+อยากหาเพื่อนคุย,casual,friendly,0.6574122177149009
+เอาใจความพอ,direct,gentle,0.490175060873033

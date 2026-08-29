@@ -1,41 +1,41 @@
 ==================================================
 Risk Model Evaluation
 ==================================================
-Accuracy: 0.707819
+Accuracy: 0.728395
 
 Precision / Recall / F1-score:
 
                         precision    recall  f1-score   support
 
-            depression       0.55      0.52      0.53        31
-                normal       0.75      0.82      0.78        33
+            depression       0.57      0.52      0.54        31
+                normal       0.83      0.88      0.85        33
  risk_immediate_danger       0.69      0.69      0.69        26
-          risk_passive       0.61      0.64      0.62        39
-        risk_self_harm       0.96      1.00      0.98        26
-risk_suicidal_ideation       0.62      0.57      0.59        28
-     risk_suicide_plan       0.86      0.73      0.79        26
-                stress       0.69      0.74      0.71        34
+          risk_passive       0.60      0.64      0.62        39
+        risk_self_harm       1.00      1.00      1.00        26
+risk_suicidal_ideation       0.65      0.61      0.63        28
+     risk_suicide_plan       0.79      0.73      0.76        26
+                stress       0.75      0.79      0.77        34
 
-              accuracy                           0.71       243
-             macro avg       0.72      0.71      0.71       243
-          weighted avg       0.71      0.71      0.71       243
+              accuracy                           0.73       243
+             macro avg       0.74      0.73      0.73       243
+          weighted avg       0.73      0.73      0.73       243
 
 Confusion Matrix:
 Labels: ['depression', 'normal', 'risk_immediate_danger', 'risk_passive', 'risk_self_harm', 'risk_suicidal_ideation', 'risk_suicide_plan', 'stress']
-[[16  1  1  8  0  0  0  5]
- [ 1 27  2  0  0  0  0  3]
- [ 0  2 18  0  0  1  3  2]
- [ 3  0  2 25  0  9  0  0]
+[[16  1  1  7  0  0  0  6]
+ [ 0 29  2  0  0  0  0  2]
+ [ 0  0 18  1  0  1  5  1]
+ [ 5  0  1 25  0  8  0  0]
  [ 0  0  0  0 26  0  0  0]
- [ 2  1  0  7  1 16  0  1]
+ [ 1  1  1  8  0 17  0  0]
  [ 0  3  3  1  0  0 19  0]
- [ 7  2  0  0  0  0  0 25]]
+ [ 6  1  0  0  0  0  0 27]]
 
 5-Fold Cross Validation:
-Fold 1: 0.683128
-Fold 2: 0.657025
-Fold 3: 0.661157
-Fold 4: 0.719008
-Fold 5: 0.731405
-Mean Accuracy: 0.690345
-Standard Deviation: 0.030072
+Fold 1: 0.695473
+Fold 2: 0.694215
+Fold 3: 0.723140
+Fold 4: 0.723140
+Fold 5: 0.752066
+Mean Accuracy: 0.717607
+Standard Deviation: 0.021381

@@ -10,30 +10,30 @@ Precision / Recall / F1-score:
        angry       1.00      0.75      0.86         8
     confused       0.80      0.50      0.62         8
         fear       1.00      0.88      0.93         8
-       happy       0.67      0.80      0.73        10
+       happy       0.70      0.70      0.70        10
      neutral       0.89      0.89      0.89         9
          sad       0.53      0.62      0.57        13
-       tired       0.77      0.91      0.83        11
+       tired       0.73      1.00      0.85        11
 
     accuracy                           0.76        67
-   macro avg       0.81      0.76      0.78        67
+   macro avg       0.81      0.76      0.77        67
 weighted avg       0.78      0.76      0.76        67
 
 Confusion Matrix:
 Labels: ['angry', 'confused', 'fear', 'happy', 'neutral', 'sad', 'tired']
-[[ 6  0  0  0  0  2  0]
+[[ 6  0  0  0  0  1  1]
  [ 0  4  0  0  0  4  0]
  [ 0  0  7  1  0  0  0]
- [ 0  0  0  8  0  1  1]
+ [ 0  0  0  7  0  2  1]
  [ 0  0  0  1  8  0  0]
  [ 0  1  0  1  1  8  2]
- [ 0  0  0  1  0  0 10]]
+ [ 0  0  0  0  0  0 11]]
 
 5-Fold Cross Validation:
-Fold 1: 0.791045
-Fold 2: 0.731343
-Fold 3: 0.791045
-Fold 4: 0.746269
-Fold 5: 0.696970
-Mean Accuracy: 0.751334
-Standard Deviation: 0.036152
+Fold 1: 0.805970
+Fold 2: 0.746269
+Fold 3: 0.835821
+Fold 4: 0.805970
+Fold 5: 0.712121
+Mean Accuracy: 0.781230
+Standard Deviation: 0.045172
