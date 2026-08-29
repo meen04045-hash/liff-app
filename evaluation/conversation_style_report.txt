@@ -1,39 +1,39 @@
 ==================================================
 Conversation Style Model Evaluation
 ==================================================
-Accuracy: 0.641026
+Accuracy: 0.729730
 
 Precision / Recall / F1-score:
 
               precision    recall  f1-score   support
 
-      casual       0.75      0.50      0.60         6
-    detailed       1.00      0.50      0.67         6
-      direct       0.50      0.50      0.50         4
-    friendly       0.67      0.86      0.75         7
-      gentle       0.60      0.75      0.67         4
-motivational       0.60      0.75      0.67         4
-     serious       0.56      0.62      0.59         8
+      casual       1.00      0.50      0.67         6
+    detailed       0.75      0.50      0.60         6
+      direct       0.67      0.50      0.57         4
+    friendly       0.75      0.86      0.80         7
+      gentle       0.50      0.75      0.60         4
+motivational       0.67      1.00      0.80         4
+     serious       0.86      1.00      0.92         6
 
-    accuracy                           0.64        39
-   macro avg       0.67      0.64      0.63        39
-weighted avg       0.68      0.64      0.64        39
+    accuracy                           0.73        37
+   macro avg       0.74      0.73      0.71        37
+weighted avg       0.76      0.73      0.72        37
 
 Confusion Matrix:
 Labels: ['casual', 'detailed', 'direct', 'friendly', 'gentle', 'motivational', 'serious']
-[[3 0 0 3 0 0 0]
+[[3 0 0 2 1 0 0]
  [0 3 1 0 0 1 1]
- [0 0 2 0 1 0 1]
+ [0 1 2 0 1 0 0]
  [0 0 0 6 1 0 0]
- [0 0 0 0 3 0 1]
- [0 0 0 0 0 3 1]
- [1 0 1 0 0 1 5]]
+ [0 0 0 0 3 1 0]
+ [0 0 0 0 0 4 0]
+ [0 0 0 0 0 0 6]]
 
 5-Fold Cross Validation:
-Fold 1: 0.666667
-Fold 2: 0.769231
-Fold 3: 0.820513
-Fold 4: 0.692308
-Fold 5: 0.769231
-Mean Accuracy: 0.743590
-Standard Deviation: 0.056177
+Fold 1: 0.783784
+Fold 2: 0.810811
+Fold 3: 0.837838
+Fold 4: 0.756757
+Fold 5: 0.861111
+Mean Accuracy: 0.810060
+Standard Deviation: 0.037175

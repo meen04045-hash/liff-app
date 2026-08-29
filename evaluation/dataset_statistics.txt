@@ -81,14 +81,14 @@ information: 15
 ----------------------------------------
 
 Conversation Style Dataset
-Total Samples: 195
+Total Samples: 184
 Number of Labels: 7
 Missing Values: 0
 Duplicate Rows: 0
 Label Distribution:
-serious: 40
 friendly: 37
 casual: 30
+serious: 29
 detailed: 28
 direct: 20
 gentle: 20
